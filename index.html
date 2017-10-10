@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <style>
+      h1 {
+        color: red;
+      }
+      h1.active {
+        text-decoration:underline;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+    <script>
+      var className = "active";
+      document.getElementsByTagName('h1')[0].className = className;
+    </script>
+  </body>
+</html>
