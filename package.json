@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "gulp-minify-inline": "^1.0.0"
+  }
+}
